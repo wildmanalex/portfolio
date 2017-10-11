@@ -1,10 +1,19 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #F1EEEB;
+}
 .navbar {
-	height: 30px;
+	height: 25px;
 	width: 400px;
 	margin:0 auto;
   	padding: 1em 0px;
   	text-align:center;
   	margin-bottom:0px;
+  	background-color: white;
+  	border-radius: 10px;
 }
 .navbar-link {
   text-transform: uppercase;
@@ -12,23 +21,41 @@
   text-decoration: none;
   color: grey;
 }
-.sec-1 {
+.main {
 	height: 400px;
 	text-align: center;
-	background-color: #F1EEEB;
 }
-.sec-1 h1 {
-	font-size: 30px;
+.main h1 {
+	font-size: 40px;
+}
+.main img {
+	border-radius: 50%;
 }
 .work {
 	text-align: center;
+}
+.work h1 {
+	font-size: 30px;
 }
 .col-md-4 {
 	display: inline-block;
 }
 .project {
-	height: 10em;
-	width: 8em;
-	margin:0 1em;
-	background-color: blue;
+	height: 14em;
+	width: 16em;
+	margin:1em 2em;
+	background-color: grey;
+	
+}
+.project p {
+	font-size: 20px;
+}
+.socials {
+	text-align: center;
+	background-color: white;
+	height: 60px;
+	width: 400px;
+	margin:0 auto;
+	padding-top: 7px;
+	border-radius: 10px;
 }
