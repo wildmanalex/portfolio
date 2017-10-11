@@ -1,14 +1,20 @@
 * {
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
+
 }
 body {
-	background-color: #F1EEEB;
+	background-color: #F3F3F3;
+}
+.main {
+	height: 600px;px;
+	text-align: center;
+	background: url('democrat.jpg') no-repeat fixed;
+	background-size: 100% 100%;
 }
 .navbar {
 	height: 25px;
 	width: 400px;
-	margin:0 auto;
+	margin:10px auto;
   	padding: 1em 0px;
   	text-align:center;
   	margin-bottom:0px;
@@ -21,15 +27,16 @@ body {
   text-decoration: none;
   color: grey;
 }
-.main {
-	height: 400px;
-	text-align: center;
-}
+
 .main h1 {
-	font-size: 40px;
+	font-size: 50px;
+	letter-spacing: 7px;
+	color: white;
 }
-.main img {
-	border-radius: 50%;
+.main h2 {
+	font-size: 40px;
+	letter-spacing: 5px;
+	color: white;
 }
 .work {
 	text-align: center;
@@ -49,6 +56,13 @@ body {
 }
 .project p {
 	font-size: 20px;
+}
+.about-me {
+	text-align: center;
+
+}
+.about-me img {
+	border-radius: 50%;
 }
 .socials {
 	text-align: center;
