@@ -15,3 +15,17 @@ body {
 	height: 20rem;
 	width: 16rem;
 }
+.rock-paper-scissors {
+	display: block;
+	margin:8rem auto;
+	background-color: #F5F5F5;
+	height: 50vh;
+	width: 50vw;
+}
+.rock-paper-scissors img {
+	position: absolute;
+	bottom:6rem;
+	right:8rem;
+	height: 18rem;
+	width: 21rem;
+}
