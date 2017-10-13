@@ -19,7 +19,9 @@ body {
 }
 
 /*  Main Screen   */
-
+.img-thumbnail {
+	border-radius: 50%;
+}
 
 /* contact   */
 .contact {
