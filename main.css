@@ -3,7 +3,7 @@
 
 }
 body {
-	background-color: #E7E7E7;
+	background-color: none;
 }
 
 /* Navigation Bar */
@@ -18,10 +18,6 @@ body {
 	right:0%;
 }
 
-/*  Main Screen   */
-.img-thumbnail {
-	border-radius: 50%;
-}
 
 /* contact   */
 .contact {
@@ -58,13 +54,9 @@ body {
 	top:0;
 }
 
-/*            */
-.placeholder img{
-	height: 20rem;
-	width: 25rem;
-}
+/*     main content area       */
 .main h1 {
-	font-size: 50px;
+	font-size: 30rem;
 	letter-spacing: 7px;
 	color: white;
 }
@@ -73,25 +65,17 @@ body {
 	letter-spacing: 5px;
 	color: white;
 }
-.work {
-	margin-top: 2rem;
+.intro h1 {
+	font-size: 7rem;
 }
-.work h1 {
-	font-size: 30px;
-	float: left;
+.intro h2 {
+	font-size: 7rem;
 }
-.col-md-4 {
-	display: inline-block;
-
+.intro {
+	margin-top: 5rem;
 }
-.project {
-	height: 14em;
-	width: 16em;
-	margin:1em 2em;
-	background-color: grey;
-	
+.img-thumbnail {
+	border-radius: 50%;
+	height: 18rem;
+	width: 18rem;
 }
-.project p {
-	font-size: 20px;
-}
-
