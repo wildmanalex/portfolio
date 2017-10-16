@@ -3,7 +3,7 @@
 
 }
 body {
-	background-color: none;
+	background: linear-gradient(-90deg, #EEEEEE, white);
 }
 
 /* Navigation Bar */
@@ -55,27 +55,24 @@ body {
 }
 
 /*     main content area       */
-.main h1 {
-	font-size: 30rem;
-	letter-spacing: 7px;
-	color: white;
-}
-.main h2 {
-	font-size: 40px;
-	letter-spacing: 5px;
-	color: white;
-}
+
 .intro h1 {
-	font-size: 7rem;
+	font-size: 7vw;
+	text-shadow: 7px 7px #E8E8E8;
+
 }
 .intro h2 {
-	font-size: 7rem;
+	font-size: 7vw;
+	text-shadow: 7px 7px #E8E8E8;
 }
 .intro {
 	margin-top: 5rem;
 }
 .img-thumbnail {
 	border-radius: 50%;
-	height: 18rem;
-	width: 18rem;
+	max-width: 100%;
+	height: auto;
 }
+/* testing out the css loader */
+
+/* end test  */
